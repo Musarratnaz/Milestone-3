@@ -1,0 +1,67 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f9ed2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 40px auto;
+    background-color: #48cdda;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgba(2, 4, 4, 0.5);
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #ffffff;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 90%;
+    padding: 17px;
+    margin: 12px;
+    border: 1px solid #f61010;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgb(2, 1, 1, 0.5);
+} 
+button {
+    background-color: #0f9ed2;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
+
+button:hover {
+    background-color: #0eaef8;
+}
+
+#resume {
+   margin-top: 20px;
+}
+
+#resume h3 {
+    color: #ffffff;
+    border-bottom: 2px solid #5b5b5b;
+    padding-bottom: 5px;
+}
+
+#resume p {
+    margin: 5px 0;
+}
